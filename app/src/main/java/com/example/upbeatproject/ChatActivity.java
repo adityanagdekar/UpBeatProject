@@ -121,7 +121,7 @@ public class ChatActivity extends AppCompatActivity {
         // this baseUrl keeps changing
         OkHttpClient okHttpClient = new OkHttpClient();
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://8c3b16900cb9.ngrok.io/webhooks/rest/")
+                .baseUrl("here your ngrok url will come")
                 .client(okHttpClient)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
