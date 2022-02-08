@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "780444150996",
+    "firebase_url": "https://firedata-60fc0.firebaseio.com",
+    "project_id": "firedata-60fc0",
+    "storage_bucket": "firedata-60fc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780444150996:android:ef63ecb4a613923c2bdf41",
+        "android_client_info": {
+          "package_name": "com.example.retrofit_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780444150996-tmmq6nd62d1bvlp15milgfi943ub3mrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkBQQnyELcgfbzpKqCWy0fd6CkfvrWTtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780444150996-tmmq6nd62d1bvlp15milgfi943ub3mrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780444150996:android:dee65091f09a76312bdf41",
+        "android_client_info": {
+          "package_name": "com.example.upbeatproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780444150996-tmmq6nd62d1bvlp15milgfi943ub3mrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkBQQnyELcgfbzpKqCWy0fd6CkfvrWTtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780444150996-tmmq6nd62d1bvlp15milgfi943ub3mrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780444150996:android:bddb37b8c9ea6182",
+        "android_client_info": {
+          "package_name": "com.rex.firedata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780444150996-eq5rbfslu36t0vc1gvqur04cuiii6dv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rex.firedata",
+            "certificate_hash": "8099ba6d60eef78a45f182daf4ee562b0afd7bc5"
+          }
+        },
+        {
+          "client_id": "780444150996-tmmq6nd62d1bvlp15milgfi943ub3mrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkBQQnyELcgfbzpKqCWy0fd6CkfvrWTtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780444150996-tmmq6nd62d1bvlp15milgfi943ub3mrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

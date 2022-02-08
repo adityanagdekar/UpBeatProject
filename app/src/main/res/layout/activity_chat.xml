@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/chat_box"
+
+        android:layout_marginBottom="50dp" >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMessageList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"/>
+
+    </LinearLayout>
+
+
+
+<!--    app:layout_constraintBottom_toTopOf="@+id/chat_box"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+    <LinearLayout
+        android:id="@+id/chat_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/textinputlayout"-->
+<!--            android:layout_width="280dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:elevation="2dp"-->
+<!--            android:background="@drawable/chatbox_shape"-->
+<!--            android:backgroundTint="#ff75a0">-->
+
+
+<!--            app:boxCornerRadiusBottomEnd="15dp"-->
+<!--            app:boxCornerRadiusBottomStart="15dp"-->
+<!--            app:boxCornerRadiusTopEnd="15dp"-->
+<!--            app:boxCornerRadiusTopStart="15dp"-->
+            <EditText
+                android:id="@+id/etMessage"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="Enter here"
+                android:layout_marginEnd="2dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/chatbox_shape"
+                android:elevation="15dp"
+                android:backgroundTint="#a4ebf3" />
+
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabSend"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_btn_send"
+            app:fabSize="normal"
+            app:elevation="1dp"
+            app:borderWidth="0dp"
+            app:pressedTranslationZ="1dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

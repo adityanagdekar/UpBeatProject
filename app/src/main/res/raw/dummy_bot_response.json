@@ -1,0 +1,16 @@
+[
+  {
+    "recipent_id": "BOT",
+    "text": "Hi,there this is a dummy bot response",
+    "buttons": [
+      {
+        "payload": "affirm",
+        "title": "affirm"
+      },
+      {
+        "payload": "deny",
+        "title": "deny"
+      }
+    ]
+  }
+]
